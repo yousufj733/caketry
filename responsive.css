@@ -1,0 +1,99 @@
+
+/* ##########################   Media Queries  (Mobile)
+############################*/
+@media  screen and (max-width:600px)
+
+{
+section 
+{
+    padding:  1rem 0;
+}
+.container
+{
+width: 97%;
+padding: 0 1rem;
+}
+
+.hero h1 
+{
+    font-size: 24px;
+line-height: 32px;
+}
+.ingredients
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;}
+
+
+.ingredients__left
+{
+    order: 1;
+}
+.ingredients__right
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    padding:40px 20px;
+    align-items: flex-start;
+    box-shadow:none;
+  
+}
+.schedule__right
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.schedule__1 
+{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+   
+}
+.schedule__1 p 
+{
+    font-size: 8px!important;
+}
+.small
+{
+    font-size: 10px!important;
+}
+
+.ingredients__list li p{
+    font-size: 14px;
+}
+.hero__details p 
+{
+    width: 320px;
+}
+
+
+.common__h1 h1{
+    font-size: 18px!important;
+line-height: 24px;
+}
+
+
+.instructions span 
+{
+  
+  width:35px;
+  height:27px;
+
+  border-radius: 6px;
+ 
+}
+footer p{
+
+    margin-bottom:15px;
+    
+    }
+
+
+
+}
+
